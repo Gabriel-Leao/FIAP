@@ -1,0 +1,79 @@
+/* @font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype'),
+    url('../fonts/Poppins/Poppins-Medium.ttf') format('truetype'),
+    url('../fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+    display: swap;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    background-image: url(../img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}  */
+
+/* #titulo {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
+
+#titulo1 {
+    color: rgb(255, 0, 255);
+    font-size: 35px;
+    text-align: left;
+}
+
+.titulo2 {
+    color: #ffff00;
+    font-size: 32px;
+    text-align: right;
+    text-transform: uppercase;
+} */
+
+img {
+    width: 300px;
+}
