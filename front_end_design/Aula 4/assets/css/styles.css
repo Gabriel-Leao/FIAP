@@ -1,0 +1,128 @@
+img {
+    max-width: 100%;
+}
+
+nav ul {
+    background-image:linear-gradient(to right, #525fe1, #a3e9f2);
+    display: flex;
+    gap: 2rem;
+    height: 40px;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    padding-left: 20px;
+}
+
+nav ul li a {
+    color: #FFF6F4;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    padding: 5px;
+    background-color: #F86F03;
+    border-radius: 8px;
+    color: #FF0060;
+}
+
+section {
+    padding-top: 3rem;
+}
+
+#sobre {
+    height: 100vh;
+    background-image: url(../img/sekiro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cards {
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    width:250px;
+    background-color: #c0c0c0;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.card:hover {
+    background-color: #525fe1;
+    color: #FFF6F4;
+}
+
+.card:hover p, .card:hover h3 {
+    color: #FFF6F4;
+}
+
+.card img {
+    width: 50%;
+    height: auto;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    padding: 0;
+    padding: 10px 0;
+}
+
+.card button {
+    display: block;
+    margin: 10px auto;
+    background-color: #F86F03;
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #FF0060;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #F86F03;
+    text-transform: capitalize;
+}
+
+p {
+    text-align: center;
+    padding-top: 40px;
+    color: #FFA41B;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+#historia {
+    background-color: blue;
+    padding: 30px;
+}
+
+#contato {
+    width: 100%;
+    background-image: linear-gradient(to right, aqua, purple);
+}
+
+#contato h3 {
+    color:#000;
+    text-align: center;
+    padding-top: 20px;
+}                                                                

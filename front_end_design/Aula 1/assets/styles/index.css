@@ -22,3 +22,10 @@ pre {
 img {
     width: 290px;
 }
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+}

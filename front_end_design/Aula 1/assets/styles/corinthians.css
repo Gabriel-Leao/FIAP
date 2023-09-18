@@ -6,3 +6,10 @@ h1 {
     font-size: 100px;
     text-align: center;
 }
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
