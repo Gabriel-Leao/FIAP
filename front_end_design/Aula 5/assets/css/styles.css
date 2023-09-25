@@ -1,0 +1,66 @@
+form {
+    width: 500px;
+    height: 400px;
+    background-image: linear-gradient(to right, aqua, purple);
+}
+
+form label {
+    margin-left: 20px;
+    color: #000;
+    font-weight: 700;
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(255, 255, 200);
+    text-shadow: 5px 5px 3px #000;
+}
+
+input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: brown;
+    margin-left: 20px;
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+    border-color: rgb(29, 2, 29);
+    box-shadow: 5px 0px 10px #DDA0DD ;
+    background-color: rgb(133, 188, 231);
+    font-weight: bold;
+    color:blue;
+}
+
+button {
+    background-color: #521552;
+    box-shadow: 40px;
+    font-weight: 700;
+    width:100px;
+    color:white;
+    border-radius: 10px;
+    margin-left: 20%;
+}
+
+button:hover {
+    background-color: chartreuse;
+    color:#000;
+    font-size: 20px;
+}
+
+#name {
+    margin-left: 50px;
+}
+#phone {
+    margin-left: 30px;
+}
+#email {
+    margin-left: 55px;
+}
