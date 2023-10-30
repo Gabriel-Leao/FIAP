@@ -147,13 +147,13 @@ section {
     }
 
     .hamburguer::before, .hamburguer::after {
-        content: '';
+        content:'';
         display: block;
-        background-color: #c0c0;
+        background-color: #000;
         width: 20px;
         height: 2px;
         margin-top: 5px;
-        transition: .5s;
+        transition: 0.5s;
         position: relative;
     }
 
