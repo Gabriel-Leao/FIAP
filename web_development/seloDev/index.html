@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="./assets/images/Video-Game-Controller-Icon-IDV-green.svg.png" type="image/x-icon">
+    <title>Selo dev</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home"><img src="./assets/images/Video-Game-Controller-Icon-IDV-green.svg.png" alt="video game"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#video">video</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleInterval" class="carousel slide custom-carousel" data-bs-ride="carousel">
+        <div class="carousel-inner" id="home">
+            <div class="carousel-item active" data-bs-interval="1200">
+                <img src="./assets/images/sekiro-background.jpg" class="custom-carousel-img" alt="Sekiro">
+            </div>
+            <div class="carousel-item" data-bs-interval="1200">
+                <img src="./assets/images/elden-ring.jpg" class="custom-carousel-img" alt="Elden Ring">
+            </div>
+            <div class="carousel-item" data-bs-interval="1200">
+                <img src="./assets/images/dark-souls-remastered.jpg" class="custom-carousel-img" alt="Dark Souls">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="video p-0" id="video">
+        <h1 class="text-center py-2">Sekiro</h1>
+        <p class="text-center py-2">O melhor jogo de todos os tempos</p>
+        <video controls>
+            <source src="./assets/videos/Sekiro_%20No%20Hesitation%20%5B%20All%20Bosses%20Epic%20Montage%20%5D%20(1).mp4" type="video/mp4"/>
+        </video>
+    </div>
+
+    <footer>
+        <p class="footer-p"></p>
+    </footer>
+
+    <script src="./js/bootstrap/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
